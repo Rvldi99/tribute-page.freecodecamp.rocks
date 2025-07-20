@@ -1,0 +1,70 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+:root {
+	--light-1: #ffffff;
+	--light-2: #e6e6e6;
+
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: var(--light-1);
+}
+
+body {
+	background-color: var(--light-2);
+	border-radius: 1em;
+}
+
+#main {
+	padding: 0.5em;
+}
+
+#title,
+#title-description,
+#source,
+#headline,
+#img-div,
+#quote,
+#footer-info {
+	text-align: center;
+}
+
+#title-description {
+	font-size: x-large;
+}
+
+#img-div {
+	background-color: var(--light-1);
+	padding: 1em 0.5em;
+	border-radius: 1em;
+}
+
+#image {
+	max-width: 100%;
+	width: 600px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	display: block;
+	margin: 0 auto;
+	border-radius: 0.5em;
+}
+
+#img-caption {
+	margin-top: 1em;
+}
+
+#headline {
+	padding: 1em 0;
+}
+
+hr {
+	margin: 2em 0;
+}
+
+section {
+	margin: 0 auto;
+	max-width: 900px;
+}
